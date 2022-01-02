@@ -20,6 +20,7 @@
 
 ## 效果展示
 1 : 使用指向中心的引力 
+
 ![center gravity](./data/center_gravity.gif)
 
 2 : 改变中心位置
