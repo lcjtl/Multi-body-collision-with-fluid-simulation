@@ -80,8 +80,9 @@ if __name__ == "__main__":
                         action='store_true')
     args, unknowns = parser.parse_known_args()
     particle_use_solids_gravity = args.use_sg
-
-    os.makedirs('frames', exist_ok=True)
+    
+    if write_to_disk:
+        os.makedirs('frames', exist_ok=True)
     gui = ti.GUI(background_color=0x000000, res=600)
     num = 6
 
